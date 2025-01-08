@@ -13,5 +13,3 @@ jobs:
         id: shellStep
         shell: python
         run: print("this steps using the python shell")
-        
-      
