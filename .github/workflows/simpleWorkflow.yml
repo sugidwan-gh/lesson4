@@ -4,17 +4,17 @@ name: workflow overview
 on:
   workflow_dispatch:
 
-job:
+jobs:
   a_simple_job:
-    name:my simple job name
-    runs-on:ubuntu-latest
+    name: my simple job name
+    runs-on: ubuntu-latest
     steps:
       - name: name of my steps
-        id:stepid
-        run:echo "this is my first step from first job"
+        id: stepid
+        run: echo "this is my first step from first job"
       - name: step with another shell
-        id:shellStep
-        shell:python
+        id: shellStep
+        shell: python
         run: print("this steps using the python shell")
         
       
