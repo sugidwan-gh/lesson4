@@ -1,9 +1,6 @@
 name: workflow overview
-
-
 on:
   workflow_dispatch:
-
 jobs:
   a_simple_job:
     name: my simple job name
